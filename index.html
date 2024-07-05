@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f601.svg" type="image/x-icon">
+
+    <title>Ticker Ai</title>
+</head>
+<body class="bg-white dark:bg-gray-900">
+    <!-- Header Section-->
+    <header class="md:mx-14 md:py-6  ">
+        <nav class="container mx-auto flex items-center justify-between  ">
+            <div class=" flex items-center gap-2 md:gap-5 ">
+                <img src="/Image/tickerAI-logo 1.png" alt="LOGO" class="w-10 md:w-fit">
+                <p class="text-[10px] md:text-[14px] dark:text-white">A Mark Cuban Company <br>
+                    AI-based Financial Market News Aggregator</p>
+            </div>
+
+            <div class="flex gap-5 items-center">
+                <a href="news.html">
+                <button class="bg-[#5677AC] rounded-md p-4 text-white font-bold text-[12px] hover:bg-[#3c5e96] transition hover:scale-110"> Personalize News</button>
+                </a>
+                <div class="rounded-full flex justify-center items-center size-12 text-[#3c5e96] text-xl font-bold bg-gray-200"> IK </div>
+                
+                <button id="switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 hover:font-xl hover:text-[#29426a] dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                      </svg>
+                      
+                </button>
+            </div>
+
+        </nav>
+    </header>
+   
+    <!-- Banner Section -->
+   <section class="flex flex-col items-center  justify-center md:px-0 px-4 md:py-32 py-20 bg-[url('https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-cover bg-no-repeat" >
+   
+        <div class="text-white md:py-5 py-3">
+            <h1 class="md:text-5xl text-3xl font-bold italic" > tickerAI</h1>
+        </div>
+    
+        <div class="flex bg-white items-center md:h-10 h-7 md:w-80 w-60 rounded-xl hover:ring-2">
+            <i class="fa fa-search text-1xl md:px-4 px-2 hover:cursor-pointer hover:text-2xl"></i>
+            <input type="text" name="Search" class="w-full focus:outline-none" placeholder="Search any market topic . . .">
+            </div>
+            
+    <p class=" md:text-sm text-xs text-gray-300 md:my-3 dark:text-white ">There are 6 articles available for your preferences</p>
+   
+   </section>
+
+    <!-- Main Body Section -->
+
+    <section class="container grid grid-cols-12 gap-6 mx-auto mb-7 md:px-1 px-4 pt-8">
+        <!-- Left side -->
+        <section class="md:col-span-9 col-span-12 md:ml-8 ">
+            <div class="flex justify-between md:pb-3 pb-2 border-b border-black md:border-b-[3px]">
+                <h3 class="md:text-2xl text-1xl font-medium  dark:text-white">ALL NEWS</h3>
+
+            <div class="flex items-center dark:text-white">
+                <p class="mr-5">Filter by:   </p>
+                <h4 class="font-bold mr-1">Stocks</h4>
+                <i class="fa-solid fa-chevron-down "></i>
+            </div>
+            </div>
+            
+            <h2 class="text-gray-700 font-semibold md:text-1xl text-xl md:pt-5 pt-3 pb-4 dark:text-white">Individual stocks</h2>
+
+        <!-- Card Section Part-1 -->
+         <!-- ONE -->
+        <div class="flex flex-col md:flex-row md:p-4 p2 md:mb-6 mb-3 items-center gap-3 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+                <img src="/Image/Rectangle 6.png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+            
+            <div>
+                <div class="mb-2 dark:text-white"> 
+                    <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md">Dow jones</span>
+                    <span class="caption">Nasdaq</span>
+                    <span class="caption">S & P 500</span>
+                </div>
+
+                <div>
+                    <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white ">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+
+                    <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+                </div>
+
+                <div class="flex md:gap-8 gap-4 items-center dark:text-white">
+                    <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+                    <p class="text-sm">By: <span class="text-[#5677AC] cursor-pointer">SHOUVIK NATH</span></p>
+                </div>
+            </div>  
+         </div>
+            
+           <!-- TWO -->
+         <div class="flex flex-col md:flex-row md:p-4 p2 md:mb-6 mb-3 items-center gap-3 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+            <img src="/Image/Rectangle 7.png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+        
+        <div>
+            <div class="mb-2"> 
+                <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md">Dow jones</span>
+                <span class="caption">Nasdaq</span>
+                <span class="caption">S & P 500</span>
+            </div>
+
+            <div >
+                <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white ">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+
+                <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+            </div>
+
+            <div class="flex md:gap-8 gap-4 items-center">
+                <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+                <p class="text-sm dark:text-white">By: <span class="text-[#5677AC] cursor-pointer ">AMADO</span></p>
+            </div>
+        </div>  
+     </div>
+
+         <!-- THREE -->
+     <div class="flex flex-col md:flex-row md:p-4 p2 md:mb-10 mb-6 items-center gap-3 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+        <img src="/Image/Rectangle 8.png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+    
+    <div>
+        <div class="mb-2"> 
+            <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md dark:text-white">wall streel</span>
+            <span class="caption dark:text-white">Analyst coverage</span>
+        </div>
+
+        <div>
+            <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+
+            <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+        </div>
+
+        <div class="flex md:gap-8 gap-4 items-center">
+            <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+            <p class="text-sm dark:text-white">By: <span class="text-[#5677AC] cursor-pointer dark:text-white">AMADO</span></p>
+        </div>
+    </div>  
+ </div>
+
+
+<!-- Card section Part-2-->
+ <h2 class="text-gray-700 font-semibold md:text-1xl text-xl md:pt-5 pt-3 pb-4 dark:text-white">Stocks Sector</h2>
+
+  <!-- ONE -->
+ <div class="flex flex-col md:flex-row md:p-4 p2 md:mb-6 mb-3 items-center gap-3 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+         <img src="/Image/Rectangle 6 (1).png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+     
+     <div>
+         <div class="mb-2"> 
+             <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md">Dow jones</span>
+             <span class="caption">Nasdaq</span>
+             <span class="caption">S & P 500</span>
+         </div>
+
+         <div>
+             <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h3>
+
+             <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+         </div>
+
+         <div class="flex md:gap-8 gap-4 items-center">
+             <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+             <p class="text-sm dark:text-white">By: <span class="text-[#5677AC] cursor-pointer">SHOUVIK NATH</span></p>
+         </div>
+     </div>  
+  </div>
+     
+    <!-- TWO -->
+  <div class="flex flex-col md:flex-row md:p-4 p2 items-center gap-3 md:mb-10 mb-6 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+     <img src="/Image/Rectangle 7 (1).png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+ 
+ <div>
+     <div class="mb-2"> 
+         <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md">Dow jones</span>
+         <span class="caption">Nasdaq</span>
+         <span class="caption">S & P 500</span>
+     </div>
+
+     <div>
+         <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+
+         <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+     </div>
+
+     <div class="flex md:gap-8 gap-4 items-center">
+         <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+         <p class="text-sm dark:text-white">By: <span class="text-[#5677AC] cursor-pointer">AMADO</span></p>
+     </div>
+ </div>  
+</div>
+
+
+<!-- Card section Part-3-->
+<h2 class="text-gray-700 font-semibold md:text-1xl text-xl md:pt-5 pt-3 pb-4 dark:text-white">Stock Market Topics</h2>
+
+<!-- ONE -->
+<div class="flex flex-col md:flex-row md:p-4 p2 items-center gap-3 border border-[#DDE2E5] hover:scale-105 transition-all duration-300 cursor-pointer">
+   <img src="/Image/Rectangle 6 (2).png" alt="Banner" class="w-full h-44 object-cover mr-4 mb-2 md:h-fit md:size-[150px]">
+
+<div>
+   <div class="mb-2"> 
+       <span class="text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md">Dow jones</span>
+       <span class="caption">Nasdaq</span>
+       <span class="caption">S & P 500</span>
+   </div>
+
+   <div>
+       <h3 class="md:text-lg font-semibold text-[#333333] pb-1 dark:text-white">Rupee inches 5 paise higher to 77.99 against us dollar in early trade</h3>
+
+       <p class="md:text-base text-sm text-[#616161] mb-2 dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</p>
+
+   </div>
+
+   <div class="flex md:gap-8 gap-4 items-center">
+       <p class=" text-sm text-[#616161] font-semibold dark:text-white">06 September 2022</p>
+       <p class="text-sm dark:text-white">By: <span class="text-[#5677AC] cursor-pointer">AMADO</span></p>
+   </div>
+</div>  
+</div>
+
+          
+        </section>
+
+        
+
+         <!-- Right side FEATURES -->
+         <section class="md:col-span-3 col-span-12 md:mr-8">
+
+            <div class="flex items-center justify-between md:pb-3 pb-2 border-b border-black md:border-b-[3px]"> 
+                <h3 class="md:text-2xl text-1xl font-medium text-[#333333] dark:text-white">FEATURES</h3>
+            </div>
+            
+            <h2 class="text-gray-700 font-semibold md:text-1xl text-xl md:pt-5 pt-3 pb-4 dark:text-white">Daily Rundowns</h2>
+            <!-- TAG Section-->
+            <div>
+                <div class="border border-[#DDE2E5] md:px-3 px-2 ">
+                    <h3 class="font-medium pb-2 md:my-4 my-3 dark:text-white">Earnings:  </h3>
+                    <div class="h-20">
+                        <span class="smallbtn dark:text-white">CSAN</span>
+                        <span class="smallbtn dark:text-white">ALYA</span>
+                        <span class="smallbtn dark:text-white">GATO</span>
+                        <span class="smallbtn dark:text-white">CSS</span>
+                        <span class="smallbtn dark:text-white">VZLA</span>
+                        <span class="smallbtn dark:text-white">MFH</span>
+                    </div>
+
+                    <h3 class="font-medium pb-2 md:my-4 my-3 dark:text-white">Movers:  </h3>
+                    <div class="h-20">
+                        <span class="smallbtn dark:text-white">REV</span>
+                        <span class="smallbtn dark:text-white">PETV</span>
+                        <span class="smallbtn dark:text-white">RYTM</span>
+                        <span class="smallbtn dark:text-white">SRRK</span>
+                        <span class="smallbtn dark:text-white">VERA</span>
+                        <span class="smallbtn dark:text-white">KZIA</span>
+                        <span class="smallbtn dark:text-white">SYM</span>
+                    </div>
+
+                    <h3 class="font-medium pb-2 md:my-4 my-3 dark:text-white">Technical:  </h3>
+                    <div class="h-40">
+                        <span class="smallbtn dark:text-white">BEARISH</span>
+                        <span class="smallbtn dark:text-white">REGN</span>
+                        <span class="smallbtn dark:text-white">TSLA</span>
+                        <span class="smallbtn dark:text-white">MCD</span>
+                        <span class="smallbtn dark:text-white">BULLISH</span>
+                        <span class="smallbtn dark:text-white">USO</span>
+                        <span class="smallbtn dark:text-white">SEDG</span>
+                        <span class="smallbtn dark:text-white">ENPH</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Gallery -->
+            <div class="pt-5">
+                <img src="/Image/Rectangle 182.png" alt="" class="w-full object-cover">
+                <h2 class="font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+            </div>
+
+            <div class="pt-5">
+                <img src="/Image/Rectangle 183.png" alt="" class="w-full object-cover">
+                <h2 class="font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+            </div>
+
+            <div class="pt-5">
+                <img src="/Image/Rectangle 184.png" alt="" class="w-full object-cover">
+                <h2 class="font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </h2>
+            </div>
+
+         </section>
+
+    </section>
+
+<footer class="text-black text-center pb-5 w-full font-bold dark:text-white">
+    All right received to TickerAI - 2024
+</footer>
+
+<script>
+    const htmlTag = document.getElementById("htmlTag");
+    document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/twemoji@11.3.0/2/svg/1f601.svg" type="image/x-icon">
+    <title>News - Ticker Ai</title>
+</head>
+<body class='bg-white dark:bg-gray-900'>
+    <!-- Header Section-->
+    <header class="md:mx-14 md:py-6  ">
+        <nav class="container mx-auto flex items-center justify-between  ">
+            <div class=" flex items-center justify-center gap-2 md:gap-5 ">
+               <a href="index.html"> <img src="/Image/tickerAI-logo 1.png" alt="LOGO" class="w-10 md:w-fit"> </a>
+                <p class="text-[10px] md:text-[14px] dark:text-white">A Mark Cuban Company <br>
+                    AI-based Financial Market News Aggregator</p> 
+            </div>
+
+            <div class="flex gap-5 items-center">
+                <button class="bg-[#5677AC] rounded-md p-4 text-white font-bold text-[12px] hover:bg-[#3c5e96] transition hover:scale-110"> Personalize News</button>
+
+                <div class="rounded-full flex justify-center items-center size-12 text-[#3c5e96] text-xl font-bold bg-gray-200"> IK </div>
+                
+                <button id="switch">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 hover:font-xl hover:text-[#29426a] dark:stroke-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                      </svg>
+                      
+                </button>
+            </div>
+        </nav>
+    </header>
+    
+    <section class="bg-[#F0F0F0] md:px-0 px-4 w-full min-h-screen dark:bg-gray-700">
+        <section class="container mx-auto md:py-12 py-8 ">
+            <div class="flex justify-between md:pb-3 pb-2 border-b border-black md:border-b-[3px] md:mx-14 mb-20">
+                <h3 class="md:text-2xl text-1xl font-medium uppercase dark:text-white">personalized your NEWS</h3>
+            </div>
+
+            <div class="bg-white max-w-lg mx-auto md:mt-10 mt-6 p-8 ">
+                <h3 class="font-semibold md:text-2xl text-lg text-center text-[#333333]">Select your market</h3>
+                <div class="">
+                    <p class="newshead">Stocks</p>
+                    <p class="newshead">Crypto</p>
+                    <p class="newshead">Economy & Business</p>
+                    <p class="newshead">Commodities  |  Forex</p>
+                    <p class="newshead">Fixed Income</p>
+                </div>
+                <button class="bg-[#5677AC] w-full py-2 md:py-4 rounded-md text-white font-medium md:text-lg hover:bg-[#42669E] transition-all duration-300 hover:scale-105 hover:cursor-pointer">Continue</button>
+            </div>
+
+        </section>
+
+    </section>
+   
+    
+
+<footer class="text-black text-center pb-5 pt-5 w-full font-bold dark:text-white">
+    All right received to TickerAI - 2024
+</footer>
+
+<script>
+    const htmlTag =document.getElementById("htmlTag")
+    document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+    });
+</script>
+
+</body>
+</html>

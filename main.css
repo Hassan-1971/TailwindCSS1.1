@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .caption {
+        @apply text-xs text-white uppercase bg-[#333333] px-1.5 py-1 mr-2 rounded-md;
+    }
+    .smallbtn{
+        @apply text-xs text-black uppercase bg-[#5677AC26] px-1.5 py-1 mx-1.5 my-2 border-2 cursor-pointer hover:font-medium hover:scale-50 transition-all duration-200 hover:bg-black hover:text-white
+    }
+    .newshead {
+        @apply bg-[#E6EBF3] text-center rounded-full w-full md:py-3 py-2 md:my-4 my-2 font-medium md:text-lg hover:bg-slate-300 transition-all hover:scale-105 duration-300 cursor-pointer hover:rounded-full
+    }
+}
